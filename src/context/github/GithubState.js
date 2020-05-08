@@ -21,7 +21,6 @@ const GithubState = (props) => {
   const [state, dispatch] = useReducer(GithubReducer, initialState);
 
   // Search Users
-  // Search Github users
   const searchUsers = async (text) => {
     setLoading();
 
